@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    div{
+        width:80px;
+        height:80px;
+        background-color: lightcoral;
+        margin-top:50px;
+        color:white;
+        font-size:40px;
+    }
+    #a
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease;
+    }
+    #b
+    {
+        transition:margin-left 2s;
+        transition-timing-function:linear;
+    }
+    #c
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease-in;
+    }
+    #d
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease-out;
+    }
+    #e
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease-in-out;
+    }
+    #main{
+        height:100%;
+        width:100%;
+        background-color:yellow;
+    }
+    #main:hover div{
+        margin-left:1200px;
+    }
+  </style>
+</head>
+<body>
+    <div id="main">
+    <div id="a">
+        ease
+        </div>
+        <div id="b">
+            linear
+        </div>
+        <div id="c">
+            ease-in
+        </div>
+    <div id="d">
+        ease-out
+    </div>
+    <div id="e">
+        ease-in-out
+    </div>
+    </div>
+    </div>
+</body>
+</html>

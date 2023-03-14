@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+    *
+    {
+        padding:0px;
+        margin:0px;
+    }
+    #circle
+    {
+        width:120px;
+        height:120px;
+        position:fixed;
+        bottom:30px;
+        left:20px;
+        background-color:black;
+        
+        border-radius: 100%;
+        box-shadow:2px 2px 5px green;
+        background-image:url(../photos/travellingonroadandinair.jpg);
+        background-color: aqua;
+        background-size: 100% 120px;
+    }
+    #mainlist
+    {
+        list-style:none;
+    }
+    .mli
+    {
+        background-color: gray;
+        color:beige;
+        font-size:20px;
+        position:relative;
+        bottom:180px;
+        left:40px;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 5px;
+        padding:5px;
+        text-align:center;
+        display: none;
+    }
+    .mli:hover{
+        background-color:teal;
+       }
+    .sli{
+        position:relative;
+        border-radius: 5px;
+        box-shadow:2px 2px 5px black;
+        left:115px;
+        bottom:25px;
+        background-color: black;
+        display:none;
+    }
+    .sli:hover{
+        
+        background-color: brown;
+    }
+    #sublist{
+        list-style:none;
+    }
+    #sub{
+        height:20px;
+    }
+    #circle:hover .mli{
+        display:block;
+    }
+    #sub:hover .sli{
+        display:block;
+    }
+</style>
+</head>
+<body>
+    <div id="circle">
+        <ul id="mainlist">
+            <li class="mli" id="sub"><img src="../photos/MainCarsimg.jpg" style="width:100%;height:100%;">Cars
+                <ul id="Sublist">
+                        <li class="sli">
+                            <img name="Lambo" src="../photos/lamboCar.png" style="width:100%;height:100%;"></li>                   
+                        <li class="sli"><img src="../photos/TataRight.jpg" style="width:100%;height:100%;">Tata</li>                    
+                        <li class="sli"><img src="../photos/shiftCar.jpeg" style="width:100%;height:100%;">Shift</li>                    
+                        <li class="sli"><img src="../photos/renaultCar.jpg" style="width:100%;height:100%;">Renault</li>
+                </ul>
+              </li>
+              <li class="mli">Plane</li>
+              <li class="mli">Bike</li>
+              <li class="mli">Trains</li>
+              <li class="mli">Ships</li>
+              <li class="mli">Rockets</li>
+            </ul>
+         </div>
+</body>
+</html>

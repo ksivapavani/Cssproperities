@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+ <style>
+    div{
+        width:300px;
+        height:300px;
+        border-radius:20px;
+        position:absolute;
+        font-size:80px;
+    }
+    #a
+    {
+        background-color:lightgreen;
+        left:50px;
+        top:50px;
+        z-index:1;
+        transition:z-index 2s,left 2s,top 2s;
+    }
+    #a:hover{
+        z-index:10;
+        left:350px;
+        top:350px;
+    }
+    #b
+    {
+        background-color:lightcoral;
+        left:150px;
+        top:150px;
+        z-index:2;
+    }
+    #c
+    {
+        background-color:lightslategray;
+        left:250px;
+        top:250px;
+        z-index:3;
+    }
+    #d
+    {
+        background-color:lightseagreen;
+        left:350px;
+        top:350px;
+        z-index:4;
+    }
+ </style>
+</head>
+<body>
+  <div id="a">1</div>
+  <div id="b">2</div>
+  <div id="c">3</div> 
+  <div id="d">4</div> 
+</body>
+</html>

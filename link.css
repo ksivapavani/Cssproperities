@@ -1,0 +1,16 @@
+a:link{
+    color:red;
+    background-color: black;
+    }
+    a:visited{
+        color:aqua;
+        background-color: green;
+    }
+    a:hover{
+        color:tomato;
+        background-color: wheat;
+    }
+    a:active{
+        color:lime;
+        background-color: black;
+    }

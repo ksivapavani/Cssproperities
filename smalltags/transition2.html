@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+ <style>
+    *{
+        margin:0px;
+        padding:10px;
+    }
+    #header
+    {
+        color:transparent;
+        width:1500px;
+        height:450px;
+        background-image: url(./left.png),url(./right.png),url(./chennachowdarygaru.PNG);
+        background-repeat:no-repeat;
+        background-size:60% 400px,80% 400px,100%;
+        background-position:bottom left,bottom right,0px 0px;
+        transition:background-position 2s,color 3s;
+    }
+    #header:hover{
+        color:black;
+        background-position:-250px 50px,450px 50px,0px -550px;
+    }
+    #heading{
+        font-size: 80px;
+        padding-left: 20%;
+        padding-top: 150px;
+    }
+ </style>
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading"> KPR CHOWDARY </h1>
+    </div>
+</body>
+</html>

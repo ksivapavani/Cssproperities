@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <style>
+     div{
+        width:80px;
+        height:80px;
+        background-color: yellow;
+        margin-top:50px;
+        color:whitesmoke;
+        font-size:40px;
+       transition: border-radius 2s,background-color 5s;
+    }
+    div:hover{
+        background-size:100%;
+        color:blue;
+    }
+    #G
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease;
+    }
+    #G:hover{
+        background-size:100%;
+        color:blue;
+    }
+    #O
+    {
+        transition:margin-left 2s;
+        transition-timing-function:linear;
+    }
+    #O:hover{
+        background-size:100%;
+        color:blue;
+    }
+    #O
+    {
+        text-align:center
+        transition:margin-right 2s;
+        transition-timing-function:ease-in;
+    }
+    #L
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease-out;
+    }
+    #E
+    {
+        transition:margin-left 2s;
+        transition-timing-function:ease-in-out;
+    }
+    #main{
+        height:100%;
+        width:100%;
+        background-color:yellow;
+    }
+    #main:hover div{
+        margin-left:1200px;
+    }
+  </style>
+</head>
+<body>
+    <div id="main">
+   <div id="G">
+    G
+   </div> 
+   <div id="O">
+    O
+   </div> 
+   <div id="0">
+    O
+   </div> 
+   <div id="G">
+    G
+   </div> 
+   <div id="L">
+    L
+   </div> 
+   <div id="E">
+    E
+   </div> 
+</div>
+</body>
+</html>
